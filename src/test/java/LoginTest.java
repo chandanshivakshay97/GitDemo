@@ -58,6 +58,8 @@ public class LoginTest extends TestListner {
         Assert.assertEquals(message_expected, message_actual);
 
         Thread.sleep(1500); // Optional, can be replaced with WebDriverWait
+
+        System.out.println("Change made by Y user");
     }
 
     @Test(priority = 2, enabled = true)
